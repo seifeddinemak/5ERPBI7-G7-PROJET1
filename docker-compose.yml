@@ -18,7 +18,7 @@ services:
       - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: mez
-      MYSQL_DATABASE: projDevOps
+      MYSQL_DATABASE: stationSki
       MYSQL_USER: mez
       MYSQL_PASSWORD: mez
     networks:
