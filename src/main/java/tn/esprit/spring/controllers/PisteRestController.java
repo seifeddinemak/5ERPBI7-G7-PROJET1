@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/piste")
 @RequiredArgsConstructor
 public class PisteRestController {
-
+/*
     private final IPisteServices pisteServices;
 
     @Operation(description = "Add Piste")
@@ -39,6 +39,6 @@ public class PisteRestController {
     public void deleteById(@PathVariable("id-piste") Long numPiste){
         pisteServices.removePiste(numPiste);
     }
-    
+    */
 
 }
