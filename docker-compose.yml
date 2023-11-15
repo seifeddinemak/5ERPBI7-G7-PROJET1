@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   ski-api:
-    image: ski-image
+    image: sindachamakh/ski-image:latest
     restart: always
     ports:
       - 4000:4000
