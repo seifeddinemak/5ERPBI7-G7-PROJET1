@@ -16,18 +16,18 @@ import java.util.List;
 @AllArgsConstructor
 @Service
 public class RegistrationServicesImpl implements  IRegistrationServices{
-
+/*
     private IRegistrationRepository registrationRepository;
     private ISkierRepository skierRepository;
     private ICourseRepository courseRepository;
 
-/*
+
     @Override
     public Registration addRegistrationAndAssignToSkier(Registration registration, Long numSkier) {
         Skier skier = skierRepository.findById(numSkier).orElse(null);
         registration.setSkier(skier);
         return registrationRepository.save(registration);
-    }*/
+    }
 
     @Override
     public Registration assignRegistrationToCourse(Long numRegistration, Long numCourse) {
