@@ -9,7 +9,7 @@ import tn.esprit.spring.entities.*;
 import java.util.List;
 
 public interface IRegistrationRepository extends CrudRepository<Registration, Long> {
-
+/*
     long countByCourseAndNumWeek(Course course, int numWeek);
     @Query("select reg.numWeek from Registration reg " +
             "join Instructor ins " +
@@ -24,7 +24,7 @@ public interface IRegistrationRepository extends CrudRepository<Registration, Lo
   //  long countDistinctByNumWeekAndSkier_NumSkierAndCourse_NumCourse(int numWeek, Long numSkier, Long numCourse);
 
 
-
+*/
 
 
 
