@@ -18,7 +18,7 @@ import java.util.Set;
 @AllArgsConstructor
 @Service
 public class SubscriptionServicesImpl implements ISubscriptionServices{
-
+/*
     private ISubscriptionRepository subscriptionRepository;
 
     private ISkierRepository skierRepository;
@@ -58,5 +58,5 @@ public class SubscriptionServicesImpl implements ISubscriptionServices{
     public List<Subscription> retrieveSubscriptionsByDates(LocalDate startDate, LocalDate endDate) {
         return subscriptionRepository.getSubscriptionsByStartDateBetween(startDate, endDate);
     }
-
+*/
 }
