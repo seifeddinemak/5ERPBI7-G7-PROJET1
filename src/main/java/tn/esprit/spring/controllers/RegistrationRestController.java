@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/registration")
 @RequiredArgsConstructor
 public class RegistrationRestController {
-    private final IRegistrationServices registrationServices;
+  /*  private final IRegistrationServices registrationServices;
 
     @Operation(description = "Add Registration and Assign to Skier")
     @PutMapping("/addAndAssignToSkier/{numSkieur}")
@@ -48,5 +48,5 @@ public class RegistrationRestController {
     public List<Integer> numWeeksCourseOfInstructorBySupport(@PathVariable("numInstructor")Long numInstructor,
                                                                   @PathVariable("support") Support support) {
         return registrationServices.numWeeksCourseOfInstructorBySupport(numInstructor,support);
-    }
+    }*/
 }
