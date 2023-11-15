@@ -9,7 +9,7 @@ import java.util.List;
 @AllArgsConstructor
 @Service
 public class PisteServicesImpl implements  IPisteServices{
-
+/*
     private IPisteRepository pisteRepository;
 
     @Override
@@ -30,5 +30,5 @@ public class PisteServicesImpl implements  IPisteServices{
     @Override
     public Piste retrievePiste(Long numPiste) {
         return pisteRepository.findById(numPiste).orElse(null);
-    }
+    }*/
 }
