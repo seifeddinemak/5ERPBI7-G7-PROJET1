@@ -23,7 +23,7 @@ public class SkierRestController {
     public Skier addSkier(@RequestBody Skier skier){
         return  skierServices.addSkier(skier);
     }
-
+/*
     @Operation(description = "Add Skier And Assign To Course")
     @PostMapping("/addAndAssign/{numCourse}")
     public Skier addSkierAndAssignToCourse(@RequestBody Skier skier,
@@ -47,7 +47,7 @@ public class SkierRestController {
     @GetMapping("/getSkiersBySubscription")
     public List<Skier> retrieveSkiersBySubscriptionType(TypeSubscription typeSubscription) {
         return skierServices.retrieveSkiersBySubscriptionType(typeSubscription);
-    }
+    }*/
     @Operation(description = "Retrieve Skier by Id")
     @GetMapping("/get/{id-skier}")
     public Skier getById(@PathVariable("id-skier") Long numSkier){
