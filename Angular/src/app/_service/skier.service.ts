@@ -9,7 +9,7 @@ import {Skier} from "../_model/Skier";
 })
 export class SkierService {
 
-  private baseUrl = 'http://192.168.1.19:8089/api/skier';
+  private baseUrl = 'http://192.168.1.15:8089/api/skier';
   constructor(private http: HttpClient) { }
 
   getAllSkiers(): Observable<Skier[]> {
